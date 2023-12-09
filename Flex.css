@@ -1,0 +1,123 @@
+/* header{
+    background-color:palevioletred;
+} */
+body{
+    background-color: rgb(31, 2, 2);
+    border: solid;
+}
+a{
+    text-decoration: none;
+    justify-content: center;
+}
+header{
+    background-color:rgb(31, 2, 2);
+    display: flex;
+    justify-content: space-around;
+    /* display: flex;
+    justify-content: space-around; */
+    /* flex-grow:1; */
+    /* border:seagreen; */
+    flex-wrap: wrap;
+    align-content: center;
+   align-items: center;
+}
+div:hover{
+    color: rgb(0, 255, 128);
+}
+/* div{
+    flex-grow:1;
+    
+} */
+/* #Items{
+    position: relative;
+    top:80px;
+    right: 900px;
+    background-color: black;
+    display: inline;
+} */
+.Items{
+    background-color:pink;
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    align-content: center;
+   align-items: center;
+   border: solid;
+}
+input{
+    padding: 2px;
+    width: 700px;
+    align-content: center;
+}
+input:optional{
+    background-color: violet;
+}
+section{
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;    
+}
+#Fant{
+    height: 200px;
+    width: 200px;
+    border: solid;
+}
+#Cap{
+    height: 200px;
+    width: 200px;
+    border: solid;
+}
+#T-Shirt{
+    height: 200px;
+    width: 200px;
+    border: solid;
+}
+#Printed{
+    height: 200px;
+    width: 200px;
+    border: solid;
+}.section2{
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;   
+    background-color: whitesmoke;
+   
+}
+#Blue{
+    position: relative;
+    top:90px;
+    height: 200px;
+    right: 160px;
+    width: 200px;
+    border: solid;
+}
+#Yellow{
+    position: relative;
+    top:100px;
+    right: 470px;
+    height: 200px;
+    width: 200px;
+    border: solid;
+}
+/* #Yellow:first-child{
+    color: blue;
+} */
+#Hooded{
+    position: relative;
+    bottom:100px;
+    right: 160px;
+    height: 200px;
+    width: 200px;
+    border: solid;
+}
+#Vest{
+    position: relative;
+    bottom:302px;
+    right: -150px;
+    height: 200px;
+    width: 200px;
+    border: solid;
+}
+
+
